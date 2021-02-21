@@ -18,6 +18,7 @@ repositories {
 
 dependencies {
     implementation(compose.desktop.currentOs)
+    implementation("com.arkivanov.decompose:decompose:0.1.8")
 }
 
 tasks.withType<KotlinCompile>() {
